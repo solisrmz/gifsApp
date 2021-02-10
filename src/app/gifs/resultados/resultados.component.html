@@ -1,1 +1,7 @@
-<p>resultados works!</p>
+<div class="row">
+    <div class="col-md-4 col-sm-6" *ngFor="let gif of resultados">
+        <div class="card">
+            <img class="card-img-top" [src]="gif.images.downsized_medium.url" alt="">
+        </div>
+    </div>
+</div>
