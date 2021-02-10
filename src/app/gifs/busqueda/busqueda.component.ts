@@ -8,6 +8,7 @@ import { GifsService } from '../services/gifs.service';
 })
 export class BusquedaComponent implements OnInit {
 
+  
   @ViewChild('termino') input!: ElementRef<HTMLInputElement>; 
   constructor(private gs: GifsService ) { 
 
